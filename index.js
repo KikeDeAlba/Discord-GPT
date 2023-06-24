@@ -1,5 +1,5 @@
-import { Client, Events, GatewayIntentBits } from 'discord.js';
-import * as dotenv from 'dotenv';
+const dotenv = require('dotenv');
+const { Client, Events, GatewayIntentBits } = require('discord.js');
 
 dotenv.config();
 
